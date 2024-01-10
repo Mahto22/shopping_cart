@@ -1,4 +1,3 @@
-/* Shopping_cart.css */
 body {
   font-family: "Arial", sans-serif;
   margin: 0;
@@ -85,7 +84,7 @@ h1 {
   border: 1px solid #ccc;
   margin-bottom: 20px;
   padding: 10px;
-  width: 30%; /* Adjust as needed based on your design */
+  width: 30%;
 }
 
 .product-card img {
@@ -100,12 +99,12 @@ h1 {
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   .product-card {
-    width: 48%; /* Adjust for two cards per row on smaller screens */
+    width: 48%;
   }
 }
 
 @media (max-width: 480px) {
   .product-card {
-    width: 100%; /* Full width on even smaller screens */
+    width: 100%;
   }
 }
